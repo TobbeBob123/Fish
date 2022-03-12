@@ -11,9 +11,11 @@ alias paf='sudo pacman -Rs'
 alias pay='sudo pacman -Syy'
 alias reboot='sudo reboot 0'
 alias shutdown='shutdown 0'
-alias ys='yay -S'
-alias y='yay'
-alias yf='yay -Rs'
+alias yay='paru'
+alias ys='paru -S'
+alias y='paru'
+alias yf='paru -Rs'
+alias icat='kitty +kitten icat'
 
 #Start starship
 starship init fish | source
