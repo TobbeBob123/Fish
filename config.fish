@@ -1,8 +1,11 @@
 # Fjern Fish intro
 set fish_greeting
 
-#Auto oppdater
-paru -Syu
+# Send huskelap vær gang terminal (Fish åpnes)
+~/script/husk_oppdater.sh
+
+# Tilfeldig COLOR SCRIPT 
+colorscript random
 
 #Alias
 alias ls='exa -lah --color=auto'
