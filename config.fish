@@ -22,8 +22,6 @@ alias icat='kitty +kitten icat'
 alias x=~/Script/HDMI1.sh
 alias z=~/Script/LaptopBare.sh
 alias awkp='awk {print}'
-alias htop='bashtop'
-alias 'git push'='git push git@github.com:TobbeBob123'
 
 #Start starship
 starship init fish | source
