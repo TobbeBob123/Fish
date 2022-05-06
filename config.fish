@@ -1,9 +1,6 @@
 # Fjern Fish intro
 set fish_greeting
 
-# Tilfeldig COLOR SCRIPT 
-colorscript random
-
 #Alias
 alias ls='exa -lah --color=auto'
 alias sudo='doas'
