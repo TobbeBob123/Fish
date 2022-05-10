@@ -22,3 +22,6 @@ alias awkp='awk {print}'
 
 #Start starship
 starship init fish | source
+
+#Start VI mode
+fish_vi_key_bindings
