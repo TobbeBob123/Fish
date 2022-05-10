@@ -19,6 +19,7 @@ alias icat='kitty +kitten icat'
 alias x=~/Script/HDMI1.sh
 alias z=~/Script/LaptopBare.sh
 alias awkp='awk {print}'
+alias vi=vifm
 
 #Start starship
 starship init fish | source
