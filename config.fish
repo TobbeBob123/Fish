@@ -1,8 +1,8 @@
-# Fjern Fish intro
-set fish_greeting
-
 # Setter vim som Manpager
 export MANPAGER="/bin/sh -c \"col -b | vim -c 'set ft=man ts=8 nomod nolist nonu noma' -\""
+
+# Fjern Fish intro
+set fish_greeting
 
 #Alias
 alias ls='exa -lah --color=auto'
