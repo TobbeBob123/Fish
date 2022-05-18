@@ -4,7 +4,9 @@ export MANPAGER="/bin/sh -c \"col -b | vim -c 'set ft=man ts=8 nomod nolist nonu
 # Fjern Fish intro
 set fish_greeting
 
-#Alias
+
+### Alias ###
+#Start_alias
 alias ls='exa -lah --color=auto'
 alias sudo='doas'
 alias pacman='sudo pacman'
@@ -23,7 +25,8 @@ alias x=~/Script/HDMI1.sh
 alias z=~/Script/LaptopBare.sh
 alias awkp='awk {print}'
 alias vi=vifm
-
+alias cls=clear
+#End_alias
 #Start starship
 starship init fish | source
 
