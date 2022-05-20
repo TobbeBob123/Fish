@@ -26,7 +26,9 @@ alias z=~/Script/LaptopBare.sh
 alias awkp='awk {print}'
 alias vi=vifm
 alias cls=clear
+alias cat=bat
 #End_alias
+
 #Start starship
 starship init fish | source
 
