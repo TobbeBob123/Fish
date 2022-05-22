@@ -25,6 +25,7 @@ alias x=~/Script/HDMI1.sh
 alias z=~/Script/LaptopBare.sh
 alias awkp='awk {print}'
 alias vi=vifm
+alias vim=nvim
 alias cls=clear
 alias cat=bat
 #End_alias
