@@ -4,7 +4,6 @@ export MANPAGER="/bin/sh -c \"col -b | vim -c 'set ft=man ts=8 nomod nolist nonu
 # Fjern Fish intro
 set fish_greeting
 
-
 ### Alias ###
 #Start_alias
 alias ls='exa -lah --color=auto'
