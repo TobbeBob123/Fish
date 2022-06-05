@@ -27,6 +27,7 @@ alias vi=vifm
 alias vim=nvim
 alias cls=clear
 alias cat=bat
+alias emacs="emacsclient -c -a 'emacs'"
 #End_alias
 
 #Start starship
